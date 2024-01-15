@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>MATHSOC Registration Form</title>
+    <link rel="stylesheet" href="TylerSpace Program CSS.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div>
+    <h1>Registration Form</h1>
+    <h2>Congrats!!</h2>
+    <p class="intro">Dear Future Space Explorers,<br><br>
+
+        🌠 Welcome to TylerSpace, where the universe is your playground and the stars are your companions! 
+        <br><br>🚀 We are absolutely thrilled to have you on board for an out-of-this-world adventure that will take you to the end of the cosmos.
+        <br><br>👩‍🚀 Get ready to embark on a journey beyond your imagination. 
+        <br><br>In the TylerSpace program, you will become honorary astronauts, exploring the mysteries of space, meeting alien friends.</p>
+        <br><br>
+        <p> BUT FIRST, fill out this form to introduce yourself and explain your interest in this porgram</p>
+        <fieldset>
+        <label for="first-name">First Name: <input class="name" type="text" required/></label>
+        <label for="last-name">Last Name: <input class="name" type="text" required/></label>
+        <label for="email">Email: <input class="name" type="email" required/></label>
+        <label for="new-password">Create a New Password: <input class="name" type="password" pattern="[a-z0-5]{8,}" required /></label>
+
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Why do you want to go to space?</legend>
+        <label><input type="radio" class="inline" /> To meet new alien friends</label>
+        <label><input type="radio" class="inline" /> To visit new planets</label>
+        <label><input type="radio" class="inline" /> To study new stars</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="8" max="18" 
+            placeholder="Note that the age range is 8 to 18"/></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">News</option>
+            <option value="2">Social media</option>
+            <option value="3">From other astronauts</option>
+            <option value="4">From aliens</option>
+            <option value="5">It's a secret</option>
+            <option value="6">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I want to join this program because..."></textarea>
+        </label>
+      </fieldset>
+    </label>
+
+      <a href="SubmittedHTML.html">
+        <input class="submit" type="submit">
+      </a>
+
+      <hr>
+      <hr>
+      
+    </form>
+    </div>
+  </body>
+</html>
