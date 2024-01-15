@@ -1,0 +1,20 @@
+body {
+    background-image:url(https://www.hdwallpapers.in/download/sky_with_full_sparkling_colorful_stars_hd_galaxy-2560x1440.jpg);
+}
+
+div {
+    background-color: rgb(90, 15, 160);
+    opacity: 80%;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    text-align:center;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 70%;
+}
